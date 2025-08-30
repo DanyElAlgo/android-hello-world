@@ -33,12 +33,12 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello, Daniel Roland Peñaranda Colque!\nThe subject is Mobile apps!",
         modifier = modifier
     )
 }
 
-@Preview(showBackground = false)
+@Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     Hello_world_2Theme {
